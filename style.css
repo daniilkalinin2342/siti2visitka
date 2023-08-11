@@ -25,15 +25,15 @@
 }
 
 .logo {
-  width: 40px;
-  height: 30px;
+  width: 90px;
+  height: 60px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #7267a0;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  color: #1A1A1A;
+  color: #c21f1f;
   font-weight: bold;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .join {
-  background-color: #FEBE02;
+  background-color: #1b1919;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -121,7 +121,7 @@
 
 .info-subtitle {
   font-size: 13px;
-  color: #8C8C8C;
+  color: #474da0;
   font-weight: bold;
   letter-spacing: 1.5px;
   display: block;
@@ -147,7 +147,7 @@
 }
 
 .audio-holder {
-  width: 540px;
+  width: 0px;
 }
 
 .audio-block {
@@ -167,7 +167,7 @@
 
 .play-btn {
   display: flex;
-  background-color: blue;
+  background-color: rgb(156, 27, 27);
   width: 40px;
   height: 40px;
   align-items: center;
@@ -197,7 +197,7 @@
 }
 
 .audio-detail {
-  flex: 1;
+  flex: 0;
 }
 
 .control {
@@ -213,8 +213,8 @@
   justify-content: center;
   align-items: center;
   font-size: 1.25rem;
-  background-color: blue;
-  color: white;
+  background-color: rgb(31, 31, 32);
+  color: rgb(41, 39, 39);
   cursor: pointer;
 }
 
@@ -225,9 +225,9 @@
 }
 
 .time {
-  color: #fff;
+  color: #312f2f;
   position: absolute;
-  top: 10px;
+  top: 1px;
   right: 0;
 }
 
@@ -246,17 +246,17 @@
 }
 
 .card-big {
-  width: 540px;
+  width: 5px;
 }
 .card-small {
-  width: 360px;
+  width: 3px;
 }
 
 .img-container {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 360px;
+  height: 36px;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -291,189 +291,4 @@
   font-weight: 400;
   margin: 18px 0;
 }
-.course-title {
-  font-size: 35px;
-  font-weight: bold;
-  letter-spacing: 0.3px;
-  color: #1A1A1A;
-  margin-bottom: 20px;
-}
-.course-desc {
-  font-size: 16px;
-  font-weight: 400;
-  color: #767676;
-  line-height: 1.7;
-  letter-spacing: 0.5px;
-}
-.img-card-1 {background-image: url(img/card-1.png);}
-.img-card-2 {background-image: url(img/card-2.png);}
-
-.img-card-3 {background-image: url(img/card-3.png);}
-
-.img-card-4 {background-image: url(img/card-4.png);}
-
-/* FOOTER */
-
-.footer {
-  background-color: #F5F6F8;
-  padding: 60px 0;
-}
-.course-info-title {
-  font-weight: 600;
-  font-size: 70px;
-  color: #1A1A1A;
-  padding-bottom: 40px;
-}
-
-.footer-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #939495;
-  padding: 30px 0;
-}
-.left-block {
-  display: flex;
-  align-items: center;
-}
-.course-number {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 25px;
-  color: #A2A2A4;
-}
-
-.course-block {
-  margin-left: 60px;
-  line-height: 1.5;
-}
-.course-name {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 50px;
-  letter-spacing: 0.8px;
-  color: #000000;
-}
-.course-count {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: 0.5px;
-  color: #9A9A9B;
-}
-.footer-row:last-child {
-  border-bottom: none;
-}
-
-.mob-btn {
-  display: none;
-}
-
-
-/* MEDIA QUERIES */
-
-@media (max-width: 1120px) {
-  .container {
-    padding: 0 20px;
-  }
-}
-
-@media (max-width: 992px) {
-  /* Для аудиоблока */
-  .header-info-block {
-    flex-direction: column;
-  }
-  .card-about {
-    align-self: flex-end;
-    margin-top: 60px;
-  }
-  .audio-container {
-    order: -1;
-  }
-
-  /* Для основного раздела */
-  .course-row {
-    flex-wrap: wrap;
-    margin-bottom: 0;
-  }
-  .course-card {
-    display: flex;
-    margin-bottom: 60px;
-  }
-  .card-big, .card-small {
-    width: 100%;
-  }
-  .img-container, .info-container {
-    width: 50%;
-  }
-  .img-card-1, .img-card-3 {
-    margin-right: 40px;
-  }
-  .img-card-2, .img-card-4 {
-    order: 2;
-    margin-left: 4px;
-  }
-}
-
-@media (max-width: 756px) {
-  /* Для основного раздела */
-  .course-card {
-    flex-direction: column;
-  }
-  .img-card-1, .img-card-3, .img-card-2, .img-card-4 {
-    margin: 10;
-  }
-  .img-container, .info-container {
-    width: 100%;
-  }
-  .img-card-2, .img-card-4 {
-    order: -1;
-  }
-}
-
-@media (max-width: 578px) {
-   /* Для меню */
-  .navigation-holder {
-    display: none;
-  }
-  .mob-btn {
-    display: inline-block;
-    text-decoration: none;
-    font-size: 60px;
-    color: #fff;
-  }
-
-  /* Заголовок в шапке */
-  .header-title-text {
-    font-size: 60px;
-  }
-
-  /* Кнопка Join */
-  .join {
-    display: none;
-  }
-
-  /* Изображение девушки */
-  .card-info-img {
-    max-width: 100%;
-  }
-
-  /* Для аудиоблока */
-  .audio-holder, .card-about {
-    width: 100%;
-  }
-  .audio-block img {
-    display: none;
-  }
-  .audio-container {
-    padding: 0 42px 0 0;
-  }
-  .control i {
-    height: 48px;
-  }
-
-  /* Для футера */ 
-  .course-name {
-    font-size: 24px;
-  }
 }
